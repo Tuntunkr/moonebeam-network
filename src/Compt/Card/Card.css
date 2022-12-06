@@ -1,0 +1,50 @@
+.card {
+    border: none;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+    width: 300px;
+    transition: all 0.3s linear;
+  }
+  
+  .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .card .spcingH {
+    padding: 10px 15px 0px 15px;
+  }
+  .card img {
+    width: 100%;
+    height: 242px;
+    /* object-fit: cover; */
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+
+  .card:hover img{
+    transform: scale(1.3);
+  }
+  
+  .card .txt h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(19, 19, 19);
+    margin-bottom: 5px;
+  }
+  
+  .card .txt h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(43, 43, 43);
+  }
+  
+  .card .subhd {
+    margin: 0;
+    font-size: 14px;
+  }
+  

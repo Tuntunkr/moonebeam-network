@@ -1,0 +1,23 @@
+/*+++++++++++++++++ Hero Section CSS  */
+.heroSection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .heroSection .title {
+    line-height: 1.4;
+  }
+  
+  .heroSection .title span {
+    color: var(--txtMed);
+  }
+  
+  .heroSection .description {
+    color: var(--txtMed);
+    font-size: 18px;
+    padding: 15px 0;
+  }
+  
+  .heroSection .imgCol img {
+    width: 100%;
+  }
